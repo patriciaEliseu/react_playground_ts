@@ -1,6 +1,7 @@
 import './App.css'
+import Login from './pages/login/Login'
 // import Contador from './pages/contador/Contador'
-import Tarefa from './pages/tarefa/Tarefa'
+// import Tarefa from './pages/tarefa/Tarefa'
 //import Home from './pages/home/Home'
 
 function App() {
@@ -13,7 +14,9 @@ function App() {
         /> */}
          {/* <Contador /> */}
          
-         <Tarefa />
+         {/* <Tarefa /> */}
+
+         <Login />
 
     </>     
   )
